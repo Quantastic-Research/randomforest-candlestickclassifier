@@ -15,7 +15,7 @@ The file defaults to pulling in daily OHLC data for Coca Cola (KO) from 2007 to 
 Use the following to train a Random Forest Classifier on your labeled data:
 
 ```
-step02-training.py
+python step02-training.py
 ```
 
 The file fits a Random Forest Classifier with the labeled data in the generated CSV file. A classification report is generated with basic values for Precision, Recall, F1-Score and Support. Additionally, a plot with Feature Importances is generated for your review. At the end of the file, .pkl files are generated that represent the generated model.
