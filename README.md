@@ -25,5 +25,5 @@ To use the .pkl file, run the following:
 ```
 model = joblib.load("candlestick_model.pkl")
 ```
-where candlestick_model.pkl is the pkl file to load.
+where `candlestick_model.pkl` is the pkl file to load.
 
